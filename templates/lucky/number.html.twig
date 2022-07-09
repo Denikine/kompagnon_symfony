@@ -1,0 +1,13 @@
+{# templates/lucky/number.html.twig #}
+<body>
+    <h1>Lucky number</h1>
+    <p>Your lucky number is: {{ number }}</p>
+    <p>
+        <a href="{{ path('lucky/number') }}">
+            <button type="button">
+                <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+                Refresh
+            </button>
+        </a>
+    </p>
+</body>
