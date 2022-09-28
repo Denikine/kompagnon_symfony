@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  kompagnonsymfony:
+    image: kompagnonsymfony
+    build:
+      context: .
+      dockerfile: ./Dockerfile
